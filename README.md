@@ -12,9 +12,11 @@ Make sure you have the following software installed on your machine:
 
 - Node.js
 - npm (Node Package Manager)
-- MongoDB
+- MongoDB account to get connection string
 
 ### Installation
 
 1. Clone the repository to your local machine:
-
+   ```
+   https://github.com/K-N-Nithin-Kumar/task-manager-mern.git
+   ```
