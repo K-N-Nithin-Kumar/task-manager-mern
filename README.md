@@ -20,3 +20,28 @@ Make sure you have the following software installed on your machine:
    ```
    https://github.com/K-N-Nithin-Kumar/task-manager-mern.git
    ```
+2. Once you cloned the repo navigate to the **backend** and **frontend/app** directries
+   ```
+   cd backend
+   ```
+   ```
+   cd frontend/app
+   ```
+3. Split terminal into 2 to execute commands related to frontend and backend.
+4. Run backend by executing the below commands.
+   ```
+   npm install
+   ```
+   ```
+   npm start
+   ```
+5. Run frontend after the successful by ensuring backend is up and running.
+   ```
+   npm install
+   ```
+   ```
+   npm start
+   ```
+   
+   
+   
