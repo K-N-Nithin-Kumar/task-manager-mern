@@ -1,7 +1,6 @@
 const Workout = require("../models/Workout");
 const mongoose = require("mongoose");
 
-//get all workout
 
 const getWorkouts = async (req, res) => {
     const Allworkout = await Workout.find({}).sort({ createdAt: -1 });
@@ -10,7 +9,7 @@ const getWorkouts = async (req, res) => {
 }
 
 
-//get a single workout
+
 
 const getWorkout = async (req, res) => {
     const { id } = req.params;
@@ -35,7 +34,7 @@ const getWorkout = async (req, res) => {
 }
 
 
-//create a new workout
+
 
 const createWorkout = async (req, res) => 
 {
@@ -53,7 +52,7 @@ const createWorkout = async (req, res) =>
 }
 
 
-//delete a single workout
+
 const deleteworkout = async (req, res) => {
     const { id } = req.params;
 
@@ -74,7 +73,7 @@ const deleteworkout = async (req, res) => {
 
 
 
-//update a single workout
+
 const updateWorkout = async (req, res) => {
     const { id } = req.params;
 
